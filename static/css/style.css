@@ -63,15 +63,5 @@
 
 /* Small Screen (Only the middle) */
 @media only screen and (max-width: 500px) {
-    .side-bar{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .icon-text{
-        visibility: hidden !important;
-    }
-    .icon{
-        margin: 5px 0px !important;
-    }
+    
 }
