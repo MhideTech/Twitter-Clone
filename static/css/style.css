@@ -1,0 +1,11 @@
+*{
+    text-decoration: none !important;
+}
+.icon{
+    width: fit-content;
+    height: fit-content;
+}
+p:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
