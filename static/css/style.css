@@ -17,6 +17,7 @@
     .side-bar{
         width: 60%;
         float: right !important;
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
         /* background-color: red; */
     }
     .icon{
@@ -28,9 +29,9 @@
     }
     .icon p{
         font-weight: 400;
-        padding: 5px 20px !important;
+        padding: 4px 20px !important;
     }
-    p:hover{
+    .icon p:hover{
         background-color: rgba(0, 0, 0, 0.2);
         border-radius: 30px;
     }
@@ -47,6 +48,7 @@
         font-size: 1.2rem !important;
         margin-top: 20px !important;
     }
+    
 }
 
 /* Sidebar with only icon plus the middle plus the last end */
