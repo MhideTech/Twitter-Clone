@@ -1,6 +1,7 @@
 *{
     text-decoration: none !important;
     box-sizing: border-box !important;
+    padding: 0 !important;
 }
 
 :root{
@@ -43,12 +44,22 @@
         background-color: var(--blueColor);
         color: var(--whiteColor);
         border-radius: 30px !important;
-        padding: 10px 70px;
+        padding: 10px 70px !important;
         border: none;
         font-size: 1.2rem !important;
         margin-top: 20px !important;
     }
-    
+    .header{
+        width: 100%;
+        /* height: fit-content; */
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 95px;
+    }
+    /* .middle{
+        margin: 0 !important;
+        margin-top: -6px !important;
+        padding: 0 !important;
+    } */
 }
 
 /* Sidebar with only icon plus the middle plus the last end */
