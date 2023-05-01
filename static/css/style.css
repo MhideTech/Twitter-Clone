@@ -71,7 +71,7 @@
     .side-bar{
         background-color: yellow;
         float: right !important;
-        width: 50%;
+        width: 50% !important;
     }
     .side-bar button{
         padding: 10px 50px !important;
