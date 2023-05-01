@@ -24,11 +24,20 @@
 
 /* Sidebar with icon and text, the middle and the last end */
 @media only screen and (min-width: 1280px) {
+    .sidebar-width{
+        width: 23% !important;
+    }
+    .tweet-width{
+        width: 40% !important;
+    }
+    .trending-width{
+        width: 30% !important;
+    }
     .side-bar{
-        width: 60%;
-        float: right !important;
+        /* width: 60%; */
+        /* float: right !important; */
         border-right: 1px solid rgba(0, 0, 0, 0.2);
-        /* background-color: red; */
+        margin-left: 60px !important;
     }
     .icon{
         width: fit-content;
@@ -39,7 +48,7 @@
     }
     .icon p{
         font-weight: 400;
-        padding: 4px 20px !important;
+        /* padding: 4px 20px !important; */
     }
     .icon p:hover{
         background-color: rgba(0, 0, 0, 0.2);
@@ -49,10 +58,8 @@
         visibility: visible !important;
         font-size: 1.3rem !important;
     }
-    
     .header{
         width: 100%;
-        /* height: fit-content; */
         background-color: rgba(0, 0, 0, 0.2);
         height: 95px;
     }
@@ -64,12 +71,14 @@
         display: none !important;
     }
     .side-bar{
-        background-color: yellow;
+        /* background-color: yellow; */
         float: right !important;
-        width: 50% !important;
+        width: 20% !important;
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+
     }
     .side-bar button{
-        padding: 10px 50px !important;
+        display: none !important;
     }
     
 }
