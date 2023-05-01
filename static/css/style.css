@@ -12,6 +12,15 @@
 .bi-twitter{
     color: var(--blueColor) !important;
 }
+.side-bar button{
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+    border-radius: 30px !important;
+    padding: 10px 70px !important;
+    border: none;
+    font-size: 1.2rem !important;
+    margin-top: 20px !important;
+}
 
 /* Sidebar with icon and text, the middle and the last end */
 @media only screen and (min-width: 1280px) {
@@ -40,15 +49,7 @@
         visibility: visible !important;
         font-size: 1.3rem !important;
     }
-    button{
-        background-color: var(--blueColor);
-        color: var(--whiteColor);
-        border-radius: 30px !important;
-        padding: 10px 70px !important;
-        border: none;
-        font-size: 1.2rem !important;
-        margin-top: 20px !important;
-    }
+    
     .header{
         width: 100%;
         /* height: fit-content; */
@@ -64,6 +65,17 @@
 
 /* Sidebar with only icon plus the middle plus the last end */
 @media only screen and (max-width: 1279px) {
+    .icon-text{
+        display: none !important;
+    }
+    .side-bar{
+        background-color: yellow;
+        float: right !important;
+        width: 50%;
+    }
+    .side-bar button{
+        padding: 10px 50px !important;
+    }
     
 }
 
