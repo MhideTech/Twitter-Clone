@@ -24,11 +24,21 @@
 
 /* Sidebar with icon and text, the middle and the last end */
 @media only screen and (min-width: 1280px) {
+    .body{
+        width: 90% !important;
+        height: fit-content !important;
+        display: flex !important;
+        justify-content: center !important;
+        background-color: aquamarine;
+    }
+    .row{
+        display: block !important;
+    }
     .sidebar-width{
-        width: 30% !important;
+        width: 23% !important;
     }
     .tweet-width{
-        width: 40% !important;
+        width: 45% !important;
     }
     .trending-width{
         width: 30% !important;
