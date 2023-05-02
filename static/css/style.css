@@ -34,7 +34,7 @@
         width: 30% !important;
     }
     .side-bar{
-        width: calc(100% - 50%);
+        width: calc(100% - 10%);
         float: right !important;
         border-right: 1px solid rgba(0, 0, 0, 0.2);
         margin-left: 60px !important;
