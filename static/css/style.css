@@ -25,19 +25,20 @@
 /* Sidebar with icon and text, the middle and the last end */
 @media only screen and (min-width: 1280px) {
     .sidebar-width{
-        width: 23% !important;
+        width: 30% !important;
     }
     .tweet-width{
-        width: 45% !important;
+        width: 40% !important;
     }
     .trending-width{
         width: 30% !important;
     }
     .side-bar{
-        /* width: 60%; */
-        /* float: right !important; */
+        width: calc(100% - 50%);
+        float: right !important;
         border-right: 1px solid rgba(0, 0, 0, 0.2);
         margin-left: 60px !important;
+        /* background-color: aqua; */
     }
     .icon{
         width: fit-content;
@@ -47,7 +48,7 @@
         font-weight: bold !important;
     }
     .icon p{
-        padding: 5px 10px !important;
+        padding: 5px 20px !important;
         font-weight: 400;
     }
     .icon p:hover{
